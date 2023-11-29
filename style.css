@@ -182,7 +182,54 @@ img {
   right: 0;
 }
 
+#second-video{
+  position: absolute;
+  top: 51px;
+  right: 100px;
+  width: 320px;
+  /* margin-right: 100px; */
+}
+
 .two {
   margin-left: -100px;
   margin-right: 140px;
+}
+
+.large{
+  height: 120vh;
+}
+
+.small{
+  height: 60vh;
+  position: relative;
+}
+
+.foot-panell2{
+  position: absolute;
+  top: 0;
+  left: 60px;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+  padding: 90px;
+}
+
+#only p{
+  position: absolute;
+  top:  60px;
+  left: 145px;
+  color: white;
+}
+
+ul a{
+  text-decoration: underline;
+  display: block;
+  line-height: 25px;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #dddddd;
 }
